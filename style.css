@@ -1,0 +1,169 @@
+*{
+    font-family: 'Nova Square', sans-serif;
+}
+
+
+
+
+.logo-custom{
+    width: 50%;
+}
+
+
+
+.link-custom{
+    text-decoration: none;
+    color: #222;
+    
+}
+
+.bg-costum{
+    background: linear-gradient(rgb(255,255,255),rgba(255,255,255,0)),url(./media/mountains2.png), url(./media/switzerland-862870_1920.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+
+
+h1{
+    color: darkred; 
+    font-size:80px;
+}
+
+h2{
+    color: darkred;
+}
+
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+
+
+.titolo {
+    letter-spacing: 30px;
+} 
+
+span {
+    color: darkred;
+    
+    
+}
+.bg-custom-montagna {
+    background-color: #ececec;
+    
+}
+.icon-line {
+    border-bottom: 4px solid darkred;
+    position: relative;
+    
+}
+.icon-line::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -12px;
+    
+    
+}
+
+.bt-custom{
+    background-color: darkred;
+    color: white;
+    border-radius: 0px;
+    padding: 10px 10px;
+}
+
+.bt-custom:hover{
+    border: 2px solid darkred;
+} 
+
+.margin-custom{
+    margin-top: 150px;
+}
+
+
+
+.bg-alberi-bianchi{
+    background-image: url(./media/trees2.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.timeline{
+    width: 50%;
+    border-left: 4px solid darkred;
+    padding-left: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.cerchi-h2::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    position: absolute;
+    left: -12px;
+}
+
+.div-custom{
+    width: 50%;
+    
+}
+
+.img-card-cerchio{
+
+    width: 200px;
+    height: 200px;
+    border: 4px solid darkred;
+}
+
+.color-icon-custom {
+    color: darkred;
+}
+h4 {
+    color: darkred;
+}
+
+.alberi-footer{
+    height: 400px;
+    background-image: url(./media/other.png);
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.bg-footer-custom{
+    color: white;
+    background-color: darkred;
+
+
+}
+
+.link-footer-custom{
+    text-decoration: none;
+    color: white;
+}
+
+.h2-footer{
+    color: white;
+}
